@@ -64,7 +64,10 @@ class MyApp extends StatelessWidget {
           title: Text('Flutter layout demo'),
         ),
         body: Column(
-          children: [titleSection, buttonSection],
+          children: [
+            titleSection,
+            buttonSection,
+          ],
         ),
       ),
     );
@@ -89,7 +92,7 @@ class MyApp extends StatelessWidget {
               color: color,
             ),
           ),
-        )
+        ),
       ],
     );
   }
